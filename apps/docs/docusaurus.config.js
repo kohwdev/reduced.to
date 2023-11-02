@@ -24,7 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: '/',
+          editUrl: 'https://github.com/origranot/reduced.to/tree/master/',
           path: 'apps/docs/docs',
         },
         pages: {
@@ -46,7 +46,7 @@ const config = {
           alt: 'Reduced.to Logo',
           src: `images/logo.svg`,
           //srcDark: `img/logo.svg`,
-          href: '/',
+          href: 'https://reduced.to',
           target: '_self',
         },
         items: [
