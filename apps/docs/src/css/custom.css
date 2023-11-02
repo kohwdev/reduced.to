@@ -1,4 +1,5 @@
 :root {
+  --ifm-nav-color: #ffffff;
   --ifm-color-primary: #478fff;
   --ifm-color-primary-dark: #478fff;
   --ifm-color-primary-darker: #478fff;
@@ -15,6 +16,7 @@
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   background-color: #000000;
+  --ifm-nav-color: #000000;
   --ifm-color-primary: #478fff;
   --ifm-color-primary-dark: #478fff;
   --ifm-color-primary-darker: #000000;
@@ -27,7 +29,7 @@
     sans-serif;
 }
 .navbar {
-  background-color: transparent;
+  background-color: var(--ifm-nav-color);
 }
 .footer {
   background-color: transparent;
@@ -40,9 +42,9 @@
 
 .navbar-github-logo {
   height: 24px;
-
   margin-left: 6px;
 }
+
 [data-theme='dark'] .navbar-github-logo {
   filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(180deg);
 }

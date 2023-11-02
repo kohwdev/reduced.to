@@ -173,7 +173,7 @@ For the minimal configuration you can just rename the `.example.env` files to `.
 
 ###### Rate Limit
 
-- **RATE_LIMIT_TTL**: Rate limt TTL (time to live)
+- **RATE_LIMIT_TTL**: Rate limit TTL (time to live)
 - **RATE_LIMIT_COUNT**: Number of requests within the ttl
 
 ###### Logger
@@ -188,8 +188,8 @@ For the minimal configuration you can just rename the `.example.env` files to `.
 
 ###### Redis
 
-- **REDIS_ENABLE**: Whether to use external redis store or not
-- **REDIS_HOST**: Redis instnace host
+- **REDIS_ENABLE**: Whether to use external Redis store or not
+- **REDIS_HOST**: Redis instance host
 - **REDIS_PORT**: Redis instance port
 - **REDIS_PASSWORD**: Redis instance password
 - **REDIS_TTL**: Redis ttl (in seconds)
@@ -274,7 +274,7 @@ Don't forget to give the project a star ⭐!
 
 ## 📝 License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+This project is licensed under the terms of the [MIT License](LICENSE)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
